@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.color {
+    height: 200px;
+    width: 200px;
+    border: 7px solid black;
+    border-radius: 20%;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.orange {
+    background-color: #F17300;
+}
+
+.brown {
+    background-color: #AD343E;
+}
+
+.violet {
+    background-color: #642CA9;
+}
+
+.pink {
+    background-color: #FF74D4;
+}
+
+.gameFlash {
+    background-color: #4D9DE0;
+}
+
+.userFlash {
+    background-color: #EFD9CE;
+}
+
+.gameOver {
+    background-color: #F7567C;
+}
