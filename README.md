@@ -14,8 +14,7 @@ In this repo, I have added the reference files which I used to study and underst
 
 - Line 18: Sabhi games ke liye `userInput` waale event listeners ek hi baar add honge. Nhi toh har game mei same event listeners dobaara add ho jaayenge unn hi elements par.
 
-- Lines 26 to 28: Choosing random color to flash and add in game sequence. At every level, only one new color needs to be flashed.
-Every color must be mentioned in id and class both because id is used to identify each color- to select it whereas class is used to modify it, for example, to flash a color. A color can only be flashed if that color is also mentioned in the class attribute because `gameFlash` is also a class. If the color is not specified as class but only in id, then the div won't flash because `gameFlash` is a class selector and the color's id selector will gain higher preference because of specificity.
+- Lines 26 to 28: Choosing random color to flash and add in game sequence. At every level, only one new color needs to be flashed. Every color must be mentioned in id and class both because id is used to identify each color- to select it whereas class is used to modify it, for example, to flash a color. A color can only be flashed if that color is also mentioned in the class attribute because `gameFlash` is also a class. If the color is not specified as class but only in id, then the div won't flash because `gameFlash` is a class selector and the color's id selector will gain higher preference because of specificity.
 
 - Lines 30 to 35: We need to set time out for new div flashing as level upgrades. Otherwise after the `userSeq` is matched with `gameSeq`, the last user input will overlap with the new flash and the user will not be able to see/distinguish the new flash. Especially if the new flash matches with the last flash from the user.
 
